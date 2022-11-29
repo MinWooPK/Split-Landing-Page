@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+
+h1 {
+
+}
+
+a {
+    list-style: none;
+}
+
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.splitleft {
+    /* background-image: url */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    gap: 30px;
+    background: linear-gradient(rgba(47, 118, 206, 0.5), rgba(47, 118, 206, 0.5)), url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2021/10/consola-ps5-playstation-5-2497497.jpg?itok=7XWY6adZ) no-repeat center  ;
+}
+
+
+
+.splitright {
+ 
+    background: linear-gradient(rgba(21, 255, 29, 0.3), rgba(9, 201, 15, 0.3)), url(https://easycdn.es/1/imagenes/otros_343732.jpg) no-repeat  ;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.splitright:hover {
+   
+    height: 100%;
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.splitleft:hover {
+    transform: scale(1.2);
+    height: 100%;
+    width: 100%;
+    transition-duration: 1s;
+}
+
+
+.splitleft > h1 {
+
+    color: white;
+  font-size: 60px;
+
+}
+
+.splitright > h1 {
+
+    color: white;
+  font-size: 60px;
+
+}
+
+.btn {
+
+    padding: 20px;
+    background-color: transparent;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 5px;
+    border-color: white;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.splitleft > .btn:hover {
+
+
+background-color: rgb(47, 118, 206);
+border-color:  rgb(47, 118, 206);
+
+
+}
+
+
+.splitright > .btn:hover {
+    background-color: rgb(9, 201, 15);
+    border-color:  rgb(9, 201, 15);
+    
+
+    }
